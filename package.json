@@ -1,0 +1,44 @@
+{
+  "name": "gmail-detector",
+  "version": "1.0.0",
+  "description": "A Node.js application that leverages Gmail's grammar and spelling detection capabilities to scan files and identify writing errors",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "backup": "node scripts/backup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gmail",
+    "grammar",
+    "spelling",
+    "checker",
+    "detector",
+    "proofreading",
+    "gmail-api",
+    "text-analysis",
+    "writing-tools",
+    "node.js"
+  ],
+  "author": {
+    "name": "Or Assayag",
+    "email": "orassayag@gmail.com",
+    "url": "https://github.com/orassayag"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orassayag/gmail-detector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/orassayag/gmail-detector/issues"
+  },
+  "homepage": "https://github.com/orassayag/gmail-detector#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "googleapis": "^95.0.0"
+  },
+  "devDependencies": {}
+}

@@ -1,44 +1,84 @@
 {
   "name": "gmail-detector",
   "version": "1.0.0",
-  "description": "A Node.js application that leverages Gmail's grammar and spelling detection capabilities to scan files and identify writing errors",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "backup": "node scripts/backup.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "A Node.js app using the Gmail API to detect grammar and spelling issues in local files. It scans directories, creates temporary email drafts with file contents, and uses Gmail language analysis to extract suggested corrections. It supports batch processing and generates reports and logs of issues",
   "keywords": [
-    "gmail",
-    "grammar",
-    "spelling",
-    "checker",
-    "detector",
-    "proofreading",
+    "nodejs",
     "gmail-api",
+    "grammar-checker",
+    "spelling-checker",
     "text-analysis",
-    "writing-tools",
-    "node.js"
+    "file-scanner",
+    "automation",
+    "batch-processing",
+    "email-drafts",
+    "google-cloud",
+    "oauth2",
+    "linting-tool",
+    "natural-language-processing",
+    "language-detection",
+    "reporting-tool",
+    "developer-tools",
+    "code-quality",
+    "document-analysis",
+    "cli-tool",
+    "javascript"
   ],
+  "homepage": "https://github.com/orassayag/gmail-detector#readme",
+  "bugs": {
+    "url": "https://github.com/orassayag/gmail-detector/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orassayag/gmail-detector.git"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/orassayag"
+  },
+  "license": "MIT",
   "author": {
     "name": "Or Assayag",
     "email": "orassayag@gmail.com",
     "url": "https://github.com/orassayag"
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/orassayag/gmail-detector.git"
-  },
-  "bugs": {
-    "url": "https://github.com/orassayag/gmail-detector/issues"
-  },
-  "homepage": "https://github.com/orassayag/gmail-detector#readme",
-  "engines": {
-    "node": ">=12.0.0"
+  "contributors": [
+    {
+      "name": "Or Assayag",
+      "email": "orassayag@gmail.com",
+      "url": "https://github.com/orassayag"
+    }
+  ],
+  "type": "commonjs",
+  "main": "src/index.js",
+  "files": [
+    ".github",
+    ".vscode",
+    "misc",
+    "src",
+    ".eslintrc",
+    ".gitignore",
+    ".prettierrc",
+    "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "INSTRUCTIONS.md",
+    "knip.json",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "backup": "node scripts/backup.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "googleapis": "^95.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": ">=12.0.0"
+  }
 }
